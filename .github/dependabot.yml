@@ -10,3 +10,13 @@ updates:
   schedule:
     interval: "daily"
   open-pull-requests-limit: 10
+
+- package-ecosystem: docker
+  directory: /build
+  schedule:
+    interval: daily
+
+- package-ecosystem: npm
+  directory: /dashboard
+  schedule:
+    interval: daily
